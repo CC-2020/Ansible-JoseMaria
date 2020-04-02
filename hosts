@@ -1,0 +1,3 @@
+ [servers]
+ instancia1 ansible_host=10.128.0.3
+ instancia2 ansible_host=10.128.0.4

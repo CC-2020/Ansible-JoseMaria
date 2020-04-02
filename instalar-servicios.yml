@@ -1,0 +1,13 @@
+---
+  - hosts: servers
+    become: true
+    tasks:
+      - name: Instalacion servicios
+      apt:
+        name:
+          - php
+          - apache2
+          - mysql-server
+        state: present
+      - name: Asegurar que apache se inicia
+        service: name=apache2 state=started enabled=yes
