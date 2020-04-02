@@ -1,5 +1,6 @@
 # Tarea Ansible Google Cloud Platform
 Se va a proceder a crear una instancia en GCP, donde se instalará la herramienta Ansible. 
+
 También se crearán dos instancias más cuya configuración será establecida desde la primera instancia a través de la herramienta Ansible.
 
 ## Pasos a seguir
